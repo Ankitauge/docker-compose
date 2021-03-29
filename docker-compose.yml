@@ -1,0 +1,17 @@
+version: '3'
+services:
+        data1:
+                image: "mysql:latest"
+                ports:
+                        - "8070:90"
+        data2:
+                image: "mysql"
+                ports:
+                        - "8090:65"
+
+        data3:
+                image: "mysql"
+                ports:
+                        - "2020:40"
+
+
